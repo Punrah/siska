@@ -10,14 +10,14 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
-        android:name="com.androidhive.siska.app.AppController"
+        android:name=".app.AppController"
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="SISKA"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name="com.androidhive.siska.activity.LoginActivity"
+            android:name=".activity.LoginActivity"
             android:label="SISKA"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -27,19 +27,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.androidhive.siska.activity.MainActivity"
-            android:label="Dashboard"></activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+            android:name=".activity.MainActivity"
+            android:label="Dashboard" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+
 
         <!-- Firebase Notifications -->
-        <service android:name=".service.MyFirebaseMessagingService"
+        <service
+            android:name=".service.MyFirebaseMessagingService"
             android:stopWithTask="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-
-        <service android:name=".service.MyFirebaseInstanceIDService"
+        <service
+            android:name=".service.MyFirebaseInstanceIDService"
             android:stopWithTask="false">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
@@ -50,6 +55,10 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-</application>
+        <activity
+            android:name=".activity.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
 
 </manifest>

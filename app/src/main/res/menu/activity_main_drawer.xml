@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/status_mahasiswa"
+            android:icon="@drawable/status"
+            android:title="Status Mahasiswa" />
+        <item
+            android:id="@+id/jadwal_mahasiswa"
+            android:icon="@drawable/schedule"
+            android:title="Jadwal Mahasiswa" />
+        <item
+            android:id="@+id/status_lengkap"
+            android:icon="@drawable/complete_status"
+            android:title="Status Lengkap" />
+    </group>
+
+    
+
+</menu>

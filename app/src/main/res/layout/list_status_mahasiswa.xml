@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:orientation="vertical"
+            android:padding="10dp">
+                <TextView
+                    android:paddingTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status :"/>
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pra-Tesis"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Konfirmasi :"
+            />
+
+        <TextView
+            android:id="@+id/tgl_konfirmasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="09-07-2016"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul :"/>
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengembangan Requirements Engineering Sistem Ehealth dalam Meningkatkan Interoperability Dinas Kesehatan (Studi Kasus Dinas Kesehatan Kabupaten Buleleng)"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pembimbing 1 :"/>
+
+        <TextView
+            android:id="@+id/pem1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dr. Gede Rasben Dantes, S.T., M.T.I."
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pembimbing 2 :"/>
+
+        <TextView
+            android:id="@+id/pem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prof. Dr. I Made Candiasa, MI.Komp."
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penguji 1 :"/>
+
+        <TextView
+            android:id="@+id/uji1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dr. Drs. I Nyoman Sukajaya, M.T."
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penguji 2 :"/>
+
+        <TextView
+            android:id="@+id/uji2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I Wayan Punia Raharja, S.Kom, M.Kom"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+                </LinearLayout>
+    </LinearLayout>

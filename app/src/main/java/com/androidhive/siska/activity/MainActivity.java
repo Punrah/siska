@@ -442,6 +442,8 @@ public class MainActivity extends AppCompatActivity {
         client.connect();
         AppIndex.AppIndexApi.start(client, getIndexApiAction());
 
+        Toast.makeText(this, "msksnnnn", Toast.LENGTH_SHORT).show();
+
 
 
     }
